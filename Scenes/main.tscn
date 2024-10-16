@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://qo2ntd0ubruk"]
+
+[ext_resource type="Script" path="res://Menu Manager/MenuManager.gd" id="1_2dmfl"]
+
+[node name="Main" type="Node2D"]
+
+[node name="MenuManager" type="Node" parent="."]
+script = ExtResource("1_2dmfl")
